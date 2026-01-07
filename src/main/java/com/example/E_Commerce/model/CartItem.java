@@ -25,7 +25,6 @@ public class CartItem {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-
     @ManyToOne
     private Product product;
     private String size;

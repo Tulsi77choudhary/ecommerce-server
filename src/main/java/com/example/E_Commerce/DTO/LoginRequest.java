@@ -1,6 +1,5 @@
 package com.example.E_Commerce.DTO;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -9,7 +8,5 @@ import lombok.Data;
 public class LoginRequest {
     private String email;
     private String password;
-
-
 
 }

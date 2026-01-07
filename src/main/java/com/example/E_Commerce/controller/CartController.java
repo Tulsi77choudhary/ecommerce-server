@@ -24,8 +24,6 @@ public class CartController {
 
     @Autowired
     private CartService cartService;
-
-
     @Autowired
     private CartItemService cartItemService;
     @PostMapping("/create/{userId}")

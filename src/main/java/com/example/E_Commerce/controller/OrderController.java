@@ -24,6 +24,7 @@ public class OrderController {
     private OrderService orderService;
     @Autowired
     private UserService userService;
+
     @PostMapping("/order")
     public ResponseEntity<Order> createOrder(@RequestBody Address shippingAddress,
                                              @RequestHeader("Authorization") String jwt) throws UserException, OrderException {
